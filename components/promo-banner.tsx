@@ -24,7 +24,7 @@ const promos = [
   },
   {
     id: 3,
-    title: "Envíos a todo el país",
+    title: "Envíos  el país",
     description: "Recibe tus productos donde los necesites",
     cta: "Ver productos",
     link: "/productos",
@@ -45,8 +45,8 @@ export default function PromoBanner() {
 
   return (
     <div className="bg-gray-100 py-3">
-      <div className="container mx-auto px-4">
-        <div className="relative h-12 overflow-hidden">
+      <div className="container mx-auto px-4 ">
+        <div className="relative h-20 sm:h-16 md:h-12 overflow-hidden ">
           <AnimatePresence mode="wait">
             <motion.div
               key={promos[currentPromo].id}
