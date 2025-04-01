@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Leo Radiadores - Especialistas en Radiadores Agrícolas e Industriales",
   description:
     "Fabricación, reparación y venta de radiadores de alta calidad para el sector agrícola e industrial. Envíos a todo el país.",
-    generator: 'v0.dev'
+    generator: 'Rodrigo Rey'
 }
 
 export default function RootLayout({
